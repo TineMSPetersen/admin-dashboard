@@ -11,3 +11,37 @@
 .small-icon {
   width: 20px;
 }
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  font-family: roboto, sans-serif;
+}
+
+.sidebar {
+  background-color: #38bdf8;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.sidebar__menu li {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.sidebar__menu li img {
+  margin-right: 15px;
+}
+
+.menu__primary {
+  margin-bottom: 50px;
+}
+
