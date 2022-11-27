@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
-.sidebar__menu img {
+.logo {
+  width: 40px;
+}
+
+.small-icon {
   width: 20px;
 }
