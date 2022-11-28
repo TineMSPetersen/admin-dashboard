@@ -121,14 +121,12 @@ header .wrapper {
 main {
   display: grid;
   grid-template-columns: 3fr 1fr;
-}
-
-.projects {
-  background-color: rgb(217, 223, 243);
   padding: 20px;
+  background-color: rgb(217, 223, 243);
+  gap: 20px;
 }
 
-.projects h2 {
+main h2 {
   margin-bottom: 20px;
 }
 
@@ -143,6 +141,10 @@ main {
   display: grid;
   grid-template-columns: 1fr 30fr;
   border-radius: 20px;
+}
+
+.project p {
+  margin-bottom: 40px;
 }
 
 .line {
@@ -167,4 +169,14 @@ main {
   display: flex;
   gap: 20px;
   list-style-type: none;
+}
+
+.announcements {
+  background-color: #f1f5f9;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.announcements hr {
+  margin: 20px 0;
 }
