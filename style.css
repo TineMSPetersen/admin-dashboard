@@ -127,7 +127,7 @@ main {
 }
 
 main h2 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .projects .wrapper {
@@ -171,12 +171,33 @@ main h2 {
   list-style-type: none;
 }
 
-.announcements {
+.announcements, .trending {
   background-color: #f1f5f9;
   padding: 30px;
   border-radius: 20px;
+  margin-bottom: 30px;
 }
 
 .announcements hr {
   margin: 20px 0;
+}
+
+.trending li {
+  display: flex;
+  justify-items: space-between;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.trending li:first-child {
+  margin-top: 0px;
+}
+
+.trending li:last-child {
+  margin-bottom: 0px;
+}
+
+.trending img {
+  width: 35px;
+  height: 35px;
 }
